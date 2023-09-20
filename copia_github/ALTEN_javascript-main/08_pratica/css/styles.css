@@ -1,0 +1,31 @@
+:root{
+    --txt1: #fff;
+    --bg1: #222;
+}
+body{
+    background: var(--bg1);
+    color: var(--txt1);
+}
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+
+
+#box1{
+  width: 300px;
+  height: 300px;
+  background-color: #f00;
+}
+#box2{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
+
+#menu{
+  background-color: #0f0;
+  padding: 10px;
+}
+
+
